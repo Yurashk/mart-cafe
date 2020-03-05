@@ -6,7 +6,9 @@
 @font-face {
     font-family: Montserrat-Thin; /* Имя шрифта */
     src: url(../fonts/Montserrat-Thin.ttf); /* Путь к файлу со шрифтом */
-}@font-face {
+}
+
+@font-face {
     font-family: Montserrat-Medium; /* Имя шрифта */
     src: url(../fonts/Montserrat-Medium.ttf); /* Путь к файлу со шрифтом */
 }
@@ -66,6 +68,7 @@
 }
 
 .row-with-contact-info {
+
     margin-top: 85px
 }
 
@@ -132,9 +135,11 @@
     background: url(../img/background/back3_menu.png) no-repeat center;
     background-size: 100% auto;
 }
-.menu-title{
-    font-family: Montserrat-Bold,serif;
+
+.menu-title {
+    font-family: Montserrat-Bold, serif;
 }
+
 .nav-pills > li > > a:hover, .nav-pills > li > a:focus {
     background-color: #fcd900;
 }
@@ -313,6 +318,10 @@
         top: 80%;
         left: 50%;
         color: black !important;
+    }
+
+    #contact-info{
+        display: none;
     }
 
     .row-with-delivery {
