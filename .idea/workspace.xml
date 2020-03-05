@@ -19,6 +19,9 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../GoParts/VagGroup" />
   </component>
+  <component name="ServiceViewManager">
+    <option name="showServicesTree" value="false" />
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -31,7 +34,8 @@
       <updated>1583262966678</updated>
       <workItem from="1583262968651" duration="7244000" />
       <workItem from="1583313695855" duration="16599000" />
-      <workItem from="1583360186554" duration="6656000" />
+      <workItem from="1583360186554" duration="7054000" />
+      <workItem from="1583400172372" duration="8708000" />
     </task>
     <servers />
   </component>
@@ -39,6 +43,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="416" y="165" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1583406031586">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="416" y="165" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1583406031586" />
     <state x="92" y="92" width="1182" height="544" key="DiffContextDialog" timestamp="1583322917289">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -51,9 +59,13 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1583323002112" />
-    <state x="339" y="5" width="672" height="676" key="search.everywhere.popup" timestamp="1583364515635">
+    <state x="378" y="96" width="736" height="606" key="find.popup" timestamp="1583409120786">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="339" y="5" width="672" height="676" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1583364515635" />
+    <state x="378" y="96" width="736" height="606" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1583409120786" />
+    <state x="339" y="5" width="672" height="676" key="search.everywhere.popup" timestamp="1583408586880">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="5" width="672" height="676" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1583408586880" />
   </component>
 </project>
