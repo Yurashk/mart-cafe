@@ -1,0 +1,284 @@
+.main-block {
+    position: relative;
+    background: url(../img/background/back1.png) no-repeat center;
+    background-size: cover ;
+    width: 100%;
+    min-height: 117vh;
+    display: flex;
+}
+
+.main-block-text {
+    position: absolute;
+    letter-spacing: 2px;
+    top: 55%;
+    left: 30%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+.navbar-styles {
+    position: relative;
+    background-color: #df0909;
+    border-radius: 35px;
+}
+
+.nav-link {
+    font-size: 0.7em;
+    word-break: keep-all;
+}
+
+.block-with-brand {
+    position: absolute;
+    width: 120px;
+    height: 130px;
+    background-color: white;
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin-top: 20px;
+    top: 70%;
+    left: 50%;
+    -webkit-box-shadow: -2px 4px 17px -4px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -2px 4px 17px -4px rgba(0, 0, 0, 0.75);
+    box-shadow: -2px 4px 17px -4px rgba(0, 0, 0, 0.75);
+    /*left: 50%;*/
+
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+.row-with-delivery {
+    position: absolute;
+    bottom: -70px;
+    left: 0;
+    right: 0;
+}
+
+.main-blocks-delivery {
+    height: 120px;
+    z-index: 2;
+    font-size: 0.9em;
+    font-weight: 500;
+    border-radius: 5px;
+    background-color: #b1ca00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.category-image__wrap_delivery {
+    height: 50px;
+    display: flex;
+    overflow: hidden;
+    border-bottom: 1px solid #eee;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+}
+
+.image_delivery {
+    width: 50%;
+}
+
+/*////////////////////////////////////////////*/
+.about-us-container {
+    width: 100%;
+    min-height: 70vh;
+    background: url(../img/background/back2.png) no-repeat center;
+    background-size: 100% auto;
+}
+.about-us-text2{
+    height: 200px;
+    margin-top: 50px;
+    margin-right: -50px;
+    z-index: 3;
+    font-size: 1em;
+    -webkit-box-shadow: -2px 4px 17px -4px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -2px 4px 17px -4px rgba(0, 0, 0, 0.75);
+    box-shadow: -2px 4px 17px -4px rgba(0, 0, 0, 0.75);
+}
+.about-us-text{
+    height: 300px;
+}
+
+/*/////////////////////////*/
+.menu-container {
+    width: 100%;
+    min-height: 100vh;
+    background: url(../img/background/back3_menu.png) no-repeat center;
+    background-size: 100% auto;
+}
+ .nav-pills > li > > a:hover, .nav-pills > li > a:focus{
+    background-color: #fcd900;
+}
+.btn-menus {
+    border-radius: 20px;
+    background-color: green;
+}
+
+.category-image__wrap {
+    height: 120px;
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+}
+.category-image__wrap-afisha{
+    height: 200px;
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    border:1px solid silver;
+    cursor:pointer;
+}
+
+.image {
+    max-height: 110px;
+
+}
+.image-afisha {
+    max-height: 200px;
+
+}
+
+/*/////////*/
+.delivery-container {
+    margin-top: 50px;
+    width: 100%;
+    min-height: 80vh;
+    background: url(../img/background/back_delivery.png) no-repeat center;
+    background-size: 100% auto;
+}
+
+/*.................................*/
+.banketu-container{
+    margin-top: 50px;
+    width: 100%;
+    min-height: 70vh;
+    background: url(../img/background/back_banket.png) no-repeat center;
+    background-size: contain;
+}
+
+
+
+/*////////////////////////////*/
+
+.afisha-container{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 100%;
+    overflow-y: hidden;
+    padding-left: -50px;
+    overflow-x: scroll;
+    border: 2px solid rgba(192, 192, 192, 0.6);
+}
+
+.afisha-container::-webkit-scrollbar {
+    height: 10px;
+}
+
+.afisha-container::-webkit-scrollbar-track {
+    background: lightgray;
+}
+
+.afisha-container::-webkit-scrollbar-thumb {
+    background: #5a5a5a;
+}
+
+.afisha-container::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+
+/*////////////////////////*/
+
+.contact-form{
+    min-height: 70vh;
+    padding-top: 15%;
+    background: url(../img/background/back6_contact.png) no-repeat center;
+    background-size: 100% auto;
+}
+
+.contact-form .form-control{
+    border-radius:10px;
+    background-color: rgba(211, 211, 211, 0.3);
+    border: 0;
+    width:100%
+}
+.contact-image{
+    text-align: center;
+}
+.contact-image img{
+    border-radius: 6rem;
+    width: 11%;
+    margin-top: -3%;
+    transform: rotate(29deg);
+}
+.contact-form form{
+    padding: 14%;
+}
+.contact-form form .row{
+    margin-bottom: -7%;
+}
+.contact-form h3{
+    margin-bottom: 10%;
+    margin-top: -10%;
+    text-align: center;
+}
+.contact-form .btnContact {
+    width: 50%;
+    border: none;
+    border-radius: 1rem;
+    padding: 1.5%;
+    background: #dc3545;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+}
+.btnContactSubmit
+{
+    width: 50%;
+    border-radius: 1rem;
+    padding: 1.5%;
+    color: #fff;
+    background-color: #0062cc;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*/////////////////////////////////*/
+@media only screen and (max-width: 700px) {
+    .main-block {
+        background: url(../img/background/back_mob_head.png) no-repeat center;
+        background-size: cover;
+
+    }
+    .main-block-text{
+        top: 80%;
+        left: 50%;
+        color:black!important;
+    }
+    .row-with-delivery {
+        display: none;
+    }
+    .about-us-text2{
+        margin: 0;
+    }
+}
