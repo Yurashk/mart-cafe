@@ -317,7 +317,9 @@ i {
 .delivery-card{
     height: auto;
 }
-
+/*.phone-button{*/
+/*    display: none;*/
+/*}*/
 /*/////////////////////////////////*/
 @media only screen and (max-width: 700px) {
     #main-slogan>*{
@@ -361,7 +363,9 @@ i {
         display: flex;
         justify-content: space-between;
     }
-
+    /*.phone-button{*/
+    /*    display: block;*/
+    /*}*/
     .navbar-nav > li {
         padding-left: 10px;
     }
