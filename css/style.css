@@ -12,7 +12,9 @@
     font-family: Montserrat-Medium; /* Имя шрифта */
     src: url(../fonts/Montserrat-Medium.ttf); /* Путь к файлу со шрифтом */
 }
-
+i{
+    cursor: pointer;
+}
 .main-block {
     position: relative;
     background: url(../img/background/back1.png) no-repeat center;
@@ -82,13 +84,14 @@
 .main-blocks-delivery {
     height: 120px;
     z-index: 2;
-    font-size: 0.9em;
+    font-size: 0.8em;
     font-weight: 500;
     border-radius: 5px;
     background-color: #b1ca00;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: Montserrat-Bold, serif;
 }
 
 .category-image__wrap_delivery {
@@ -114,6 +117,7 @@
 }
 
 .about-us-text2 {
+    position: relative;
     height: 200px;
     margin-top: 50px;
     margin-right: -50px;
@@ -320,7 +324,7 @@
         color: black !important;
     }
 
-    #contact-info{
+    #contact-info {
         display: none;
     }
 
