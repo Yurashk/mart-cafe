@@ -12,9 +12,11 @@
     font-family: Montserrat-Medium; /* Имя шрифта */
     src: url(../fonts/Montserrat-Medium.ttf); /* Путь к файлу со шрифтом */
 }
-i{
+
+i {
     cursor: pointer;
 }
+
 .main-block {
     position: relative;
     background: url(../img/background/back1.png) no-repeat center;
@@ -309,9 +311,24 @@ i{
     cursor: pointer;
 }
 
+#slider2 {
+    display: none;
+}
+.delivery-card{
+    height: auto;
+}
 
 /*/////////////////////////////////*/
 @media only screen and (max-width: 700px) {
+    #main-slogan>*{
+        color:black;
+    }
+    #slider2 {
+        width: 100%;
+        display:block;
+        height: 300px;
+    }
+
     .main-block {
         background: url(../img/background/back_mob_head.png) no-repeat center;
         background-size: cover;
@@ -339,4 +356,24 @@ i{
     .contact-form-box {
         margin: 0;
     }
+
+    .navbar-styles {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .navbar-nav > li {
+        padding-left: 10px;
+    }
+
+    #slider-off {
+        display: none;
+    }
+    .delivery-container{
+        background-size: cover;
+    }
+.delivery-card{
+    height: 100%;
+}
+
 }
