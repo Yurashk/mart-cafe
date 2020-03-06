@@ -89,6 +89,7 @@ i {
     font-size: 0.8em;
     font-weight: 500;
     border-radius: 5px;
+    cursor: pointer;
     background-color: #b1ca00;
     display: flex;
     justify-content: center;
